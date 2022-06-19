@@ -53,6 +53,19 @@ def make_vpc(**kwargs):
 		logging.info(err)
 		print(f'Create VPC {Vpc_name} error logged in vpc.log ...')
 
+def update_vpc(**kwargs):
+	''' Adds additional configurations to VPC '''
+	try:
+		print(f'Additional CIDR: {kwargs["Cidr"]} for VPC {kwargs["Vpc_name"]} in {kwargs["Region"]}...')
+		os.system("aws ec2 associate-vpc-cidr-block \
+		--cidr-block " + kwargs['Cidr'] + " \
+		--vpc-id " + kwargs['Vpc_Id'] + " \
+		--region " + kwargs['Region']
+		)
+		logging.info(f'Additional CIDR: {kwargs["Cidr"]} for VPC {kwargs["Vpc_Id"]}...')
+	except Exception as err:
+		logging.info(err)
+		print(f'Additonal CIDR {kwargs["Cidr"]} error logged in vpc.log ...')
 
 #get vpc id 
 def get_VpcId(Vpc_name, region='us-east-1'):
