@@ -79,7 +79,7 @@ You have the option to copy the script to another file name and edit it.
 
 **9**  - VPC resources do not cost you anything, but in case you decide to delete the VPCs. You can run the script **delete_resources.py**
 	
-**Note:** The script all delete all VPC resources that do not have any dependencies. 
+**Note:** The script deletes all VPC resources that do not have any dependencies. 
 	
 This means, if subnets and route tables are not associated to the VPC, the VPC will be deleted. 
 
