@@ -12,9 +12,9 @@
 
 This script was built with the intention to simplify its use. 
 
-It can run on any Linux environment in AWS or on-premises able to install Python 3.6.9 (or higher) and awscli version 2.
+It can run on any Linux environment in AWS or on-premises, that is able to install Python 3.6.9 (or higher) and awscli version 2.
 
-The objective is to create a VPC tagged with a unique name, including a CIDR range and the capability to add a secondary CIDR.
+It is capable to create a unique VPC, including a primary CIDR and the option to add a secondary CIDR.
 
 The scripts are idempotent. This means, if the resource tag name already exists, it will not create another one.
 
