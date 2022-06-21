@@ -31,7 +31,7 @@ awscli --profile option is not used for simplicity. Assign a role with programma
 
 **Walk-through:**
 
-**1**  - Make sure to comply with the prerequisites mentions above.
+**1**  - Make sure to comply with the prerequisites mentioned above.
 
 **2**  - Update and install the latest packages of your Linux distribution system.
 
@@ -48,10 +48,9 @@ cd maendeleolab_vpc
 ```
 
 **5**  - List the files in the folder with the ls command. It should match the files below.
-```	
-Note: A file named vpc.log will be created to store the scripts logs, when you run the script for the first time.
+**Note:** A file named vpc.log will be created to store the scripts logs, when you run the script for the first time.
+
 Remember to use it to monitor your environment or troubleshoot an issue.
-```
 
 ```
 README.md
@@ -63,11 +62,11 @@ maendeleolab_lib.py
 
 **6**  - I recommend running the script **NetworkDev1.py** to see what the expected results look like. 
 
-	   It will create a VPC named NetworkDev1 in us-east-1 and us-east-2 with their respective CIDR ranges.
+It will create a VPC named NetworkDev1 in us-east-1 and us-east-2 with their respective CIDR ranges.
 
-	   This script will become your building block for additional VPC scripts. 
+This script will become your building block for additional VPC scripts. 
 
-	   You have the option to copy the script to another file name and edit it.
+You have the option to copy the script to another file name and edit it.
 
 ```
 ./NetworkDev1.py or python3 NetworkDev1.py
@@ -79,14 +78,14 @@ maendeleolab_lib.py
 
 **9**  - VPC resources do not cost you anything, but in case you decide to delete the VPCs. You can run the script **delete_resources.py**
 	
-	**Note:**The script all delete all VPC resources that do not have any dependencies. 
+**Note:**The script all delete all VPC resources that do not have any dependencies. 
 	
-	This means, if subnets and route tables are not associated to the VPC, the VPC will be deleted. 
+This means, if subnets and route tables are not associated to the VPC, the VPC will be deleted. 
 
 ```
 ./delete_resources.py or python3 delete_resources.py
 ```
 
-**10** - If you get to this step, congratulations! for being brave to take action on using this repo. 
+**10** - If you get to this step, congratulations for being brave to do it! 
 
 	
