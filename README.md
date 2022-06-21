@@ -1,6 +1,6 @@
 # maendeleolab_vpc
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/maendeleolab/maendeleolab_vpc)
-
+[![Github All Releases](https://img.shields.io/github/downloads/maendeleolab/maendeleolab_vpc/total.svg)]()
 ```
 ├── build_vpc.py
 ├── delete_resources.py
