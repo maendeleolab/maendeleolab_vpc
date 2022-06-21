@@ -36,11 +36,13 @@ awscli --profile option is not used for simplicity. Assign a role with programma
 2 - Update and install the latest packages of your Linux distribution system.
 
 3 - Clone this repo to the instance/server using the syntax below.
+
 ```
 git clone git@github.com:maendeleolab/maendeleolab_vpc.git
 ```
 
 4 - cd to folder maendeleolab_vpc
+
 ```
 cd maendeleolab_vpc
 ```
@@ -50,6 +52,7 @@ cd maendeleolab_vpc
 	a file named **vpc.log** will be created to store the scripts logs, when you run the script for the first time.
 	
 	Remember to use it to monitor your environment or troubleshoot an issue.
+
 ```
 README.md  build_vpc.py  delete_resources.py  deploy_NetworkDev1.py  maendeleolab_lib.py
 ```
@@ -61,6 +64,7 @@ README.md  build_vpc.py  delete_resources.py  deploy_NetworkDev1.py  maendeleola
 	This script will become your building block for additional VPC scripts. 
 
 	You have the option to copy the script to another file name and edit it.
+
 ```
 ./NetworkDev1.py or python3 NetworkDev1.py
 ```
@@ -74,6 +78,7 @@ README.md  build_vpc.py  delete_resources.py  deploy_NetworkDev1.py  maendeleola
 	**Note:**The script all delete all VPC resources that do not have any dependencies. 
 	
 	This means, if subnets and route tables are not associated to the VPC, the VPC will be deleted. 
+
 ```
 ./delete_resources.py or python3 delete_resources.py
 ```
