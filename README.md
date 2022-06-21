@@ -52,7 +52,6 @@ cd maendeleolab_vpc
 	  A file named vpc.log will be created to store the scripts logs, when you run the script for the first time.
 	
 	  Remember to use it to monitor your environment or troubleshoot an issue.
-
 ```
 README.md
 build_vpc.py
