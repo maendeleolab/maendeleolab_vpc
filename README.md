@@ -1,4 +1,5 @@
 # maendeleolab_vpc
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/maendeleolab/maendeleolab_vpc)
 
 ```
 ├── build_vpc.py
