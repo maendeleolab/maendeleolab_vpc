@@ -33,9 +33,9 @@ awscli --profile option is not used for simplicity. Assign a role with programma
 
 1 - Make sure to comply with the prerequisites mentions above.
 
-2 - update and install the latest packages of your Linux distribution system.
+2 - Update and install the latest packages of your Linux distribution system.
 
-3 - clone this repo to the instance/server using the syntax below.
+3 - Clone this repo to the instance/server using the syntax below.
 ```
 git clone git@github.com:maendeleolab/maendeleolab_vpc.git
 ```
@@ -67,7 +67,9 @@ cd maendeleolab_vpc
 	**Note:**The script all delete all VPC resources that do not have any dependencies. 
 	
 	This means, if subnets and route tables are not associated to the VPC, the VPC will be deleted. 
-
+```
+./delete_resources.py or python3 delete_resources.py
+```
 
 10 - If you get to this step, congratulations! for being brave to take action on using this repo. 
 
