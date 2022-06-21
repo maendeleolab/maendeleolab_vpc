@@ -66,7 +66,7 @@ maendeleolab_lib.py
 
 It will create a VPC named NetworkDev1 in us-east-1 and us-east-2 with their respective CIDR ranges.
 
-This script will become your building block for additional VPC scripts. 
+This script will become your building block for additional VPC scripts and your single source of truth. 
 
 You have the option to copy the script to another file name and edit it.
 
