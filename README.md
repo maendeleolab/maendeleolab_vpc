@@ -1,13 +1,15 @@
 # maendeleolab_vpc
 
+```
 ├── build_vpc.py
 ├── delete_resources.py
 ├── deploy_NetworkDev1.py
 ├── maendeleolab_lib.py
 └── vpc.log
-
+```
 
 **Context:**
+
 This script was built with the intention to simplify its use. 
 
 It can run on any Linux environment in AWS or on-premises able to install Python 3.6.9 (or higher) and awscli version 2.
@@ -17,6 +19,7 @@ The objective is to create a VPC tagged with a unique name, including a CIDR ran
 The scripts are idempotent. This means, if the resource tag name already exists, it will not create another one.
 
 **Prerequisites:**
+
 It helps to be familiar with Linux basics commands.
 
 Must have awscli version 2 and Python 3.6.9 (or higher) installed.
@@ -27,6 +30,7 @@ awscli --profile option is not used for simplicity. Assign a role with programma
 
 
 **Walk-through:**
+
 1 - Make sure to comply with the prerequisites mentions above.
 
 2 - update and install the latest packages of your Linux distribution system.
