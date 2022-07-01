@@ -12,7 +12,7 @@
 └── vpc.log
 ```
 
-**Context:**
+## [Context](#Context)
 
 This repo was built to create a basic VPC construct to use with IPv4. 
 
@@ -22,7 +22,7 @@ It creates a unique VPC, including a primary CIDR and the option to add a second
 
 The scripts included in the repo are idempotent. This means, if the resource is tagged with a name that already exists, it will not create a VPC with an identical tag.
 
-**Prerequisites:**
+## [Prerequisites](#Prerequisites)
 
 It helps to be familiar with Linux basics commands.
 
@@ -33,7 +33,7 @@ I recommend dedicating an instance (or on-premises server) to programmatically r
 awscli --profile option is not used for simplicity. Assign a role with programmatic access to the instance/server default profile.
 
 
-**Walk-through:**
+## [Walk-through](#Walk-through)
 
 **1**  - Make sure to comply with the prerequisites mentioned above.
 
