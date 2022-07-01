@@ -2,6 +2,8 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/maendeleolab/maendeleolab_vpc)
 [![Github All Releases](https://img.shields.io/github/downloads/maendeleolab/maendeleolab_vpc/total.svg)]()
 
+<img src="/images/banner.png" width=400>
+
 ```
 ├── build_vpc.py
 ├── delete_resources.py
@@ -12,13 +14,13 @@
 
 **Context:**
 
-This repo was built with the intention to simplify its use. 
+This repo was built to create a basic VPC construct to use with IPv4. 
 
 It can be used on any Linux environment in AWS or on-premises, that is able to install Python 3.6.9 (or higher) and awscli version 2.
 
 It creates a unique VPC, including a primary CIDR and the option to add a secondary CIDR. 
 
-The scripts included in the repo are idempotent. This means, if the resource tag name already exists, it will not create another one.
+The scripts included in the repo are idempotent. This means, if the resource is tagged with a name that already exists, it will not create a VPC with an identical tag.
 
 **Prerequisites:**
 
@@ -100,5 +102,17 @@ This means, if subnets and route tables are not associated to the VPC, the VPC w
 ```
 
 **11** - If you get to this step, congratulations for being brave to do it! 
+
+## [Support](#Support)
+If you find this script useful, please support it with a shout out on your favorite social media platform!
+
+![Twitter](https://img.shields.io/twitter/follow/maendeleolab?style=social)
+```
+Twitter : @maendeleolab
+Instagram : @maendeleolab
+TitTok : @pat_maendeleolab
+```
+## [License](#License)
+GNU GENERAL PUBLIC LICENSE
 
 	
