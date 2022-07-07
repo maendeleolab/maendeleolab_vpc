@@ -28,19 +28,19 @@ This means, if the resource is tagged with a name that already exists, it will n
 
 ## [Prerequisites](#Prerequisites)
 
-It helps to be familiar with Linux basics commands.
+- It helps to be familiar with Linux basics commands.
 
-Must have awscli version 2 and Python 3.6.9 (or higher) installed.
+- Must have awscli version 2 and Python 3.6.9 (or higher) installed.
 
-I recommend dedicating an instance (or on-premises server) to programmatically run the scripts.  
+- I recommend dedicating an instance (or on-premises server) to programmatically run the scripts.  
 
-awscli --profile option is not used for simplicity. 
+- AWS CLI --profile option is not used for simplicity. 
 
-Assign a role with programmatic access to the instance/server default profile.
+- Assign a role with programmatic access to the instance/server default profile.
 
-Run this command "export ENV_FPATH=<folder-path>", 
+- Run this command "export ENV_FPATH=<folder-path>" 
 
-replace folder-path with your folder location (this the folder, where you will download the repo). 
+- Replace folder-path with your folder location (this the folder, where you will download the repo). 
 
 See the example below.
 
