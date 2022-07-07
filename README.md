@@ -32,6 +32,11 @@ I recommend dedicating an instance (or on-premises server) to programmatically r
 
 awscli --profile option is not used for simplicity. Assign a role with programmatic access to the instance/server default profile.
 
+Run this command export ENV_FPATH="folder-path", replace folder-path with your folder (this the folder, where you will download the repo). See example below.
+
+```
+export ENV_FPATH="/home/ubuntu"
+```
 
 ## [Walk-through](#Walk-through)
 

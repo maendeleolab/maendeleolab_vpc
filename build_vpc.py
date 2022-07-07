@@ -15,7 +15,7 @@ FPATH = os.environ.get('ENV_FPATH')
 
 #logging
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p ',\
-									filename=FPATH+'/cloudNetworkSpecialty/vpc/vpc.log', level=logging.INFO)
+									filename=FPATH+'/maendeleolab_vpc/vpc.log', level=logging.INFO)
 
 #adding flexibility for regions
 def region_id(name='us-east-1'):
