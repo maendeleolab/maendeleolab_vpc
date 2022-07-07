@@ -30,9 +30,13 @@ Must have awscli version 2 and Python 3.6.9 (or higher) installed.
 
 I recommend dedicating an instance (or on-premises server) to programmatically run the scripts.  
 
-awscli --profile option is not used for simplicity. Assign a role with programmatic access to the instance/server default profile.
+awscli --profile option is not used for simplicity. 
 
-Run this command export ENV_FPATH="folder-path", replace folder-path with your folder (this the folder, where you will download the repo). See example below.
+Assign a role with programmatic access to the instance/server default profile.
+
+Run this command "export ENV_FPATH=<folder-path>", 
+
+replace folder-path with your folder (this the folder, where you will download the repo). See example below.
 
 ```
 export ENV_FPATH="/home/ubuntu"
