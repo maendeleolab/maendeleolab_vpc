@@ -14,17 +14,17 @@
 
 ## [Context](#Context)
 
-This repo was built to create a basic VPC construct to use with IPv4. 
+- This repo was built to create a basic VPC construct to use with IPv4. 
 
-It can be used on any Linux environment in AWS or on-premises, 
+- It can be used on any Linux environment in AWS or on-premises. 
 
-that is able to install Python 3.6.9 (or higher) and awscli version 2.
+- Install Python 3.6.9 (or higher) and awscli version 2.
 
-It creates a unique VPC, including a primary CIDR and the option to add a secondary CIDR. 
+- It creates a unique VPC, including a primary CIDR and the option to add a secondary CIDR. 
 
-The scripts included in the repo are idempotent. 
+- The scripts included in the repo are idempotent. 
 
-This means, if the resource is tagged with a name that already exists, it will not create a VPC with an identical tag.
+- This means, if the resource is tagged with a name that already exists, it will not create a VPC with an identical tag.
 
 ## [Prerequisites](#Prerequisites)
 
