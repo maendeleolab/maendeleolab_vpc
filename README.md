@@ -38,7 +38,7 @@
 
 - Assign a role with programmatic access to the instance/server default profile.
 
-- Run this command "export ENV_FPATH=<folder-path>" 
+- Run this command 'export ENV_FPATH="folder-path" ' 
 
 - Replace folder-path with your folder location (this the folder, where you will download the repo). 
 
