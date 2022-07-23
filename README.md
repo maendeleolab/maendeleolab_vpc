@@ -1,5 +1,5 @@
 # maendeleolab_vpc
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/maendeleolab/maendeleolab_vpc)
+![GitHub commit activity](https://img.shields.io/github/last-commit/maendeleolab/maendeleolab_vpc)
 
 <img src="/images/banner.png" width=400>
 
