@@ -115,6 +115,5 @@ def erase_vpcs(region='us-east-1'):
 		logging.info(err)
 		print('Logging erase_vpcs error to vpc.log ...')
 
-
 # ------------------------------- End ---------------------------------
 
