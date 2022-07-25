@@ -73,6 +73,8 @@ Remember to use it to monitor your environment or troubleshoot an issue.
 
 ```
 README.md
+LICENSE
+images
 build_vpc.py
 delete_resources.py
 deploy_NetworkDev1.py
