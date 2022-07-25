@@ -59,23 +59,13 @@ export ENV_FPATH="/home/ubuntu"
 git clone https://github.com/maendeleolab/maendeleolab_vpc.git
 ```
 
-**4**  - You can verify the integrity of the folder using the commands below.
-
-```
-shasum -a 256 maendeleolab_vpc/
-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  maendeleolab_vpc/
-
-shasum maendeleolab_vpc/
-da39a3ee5e6b4b0d3255bfef95601890afd80709  maendeleolab_vpc/
-```
-
-**5**  - cd to folder maendeleolab_vpc
+**4**  - cd to folder maendeleolab_vpc
 
 ```
 cd maendeleolab_vpc
 ```
 
-**6**  - List the files in the folder with the **ls** command. It should match the files below.
+**5**  - List the files in the folder with the **ls** command. It should match the files below.
 
 **Note:** A file named **vpc.log** will be created to store the scripts logs, when you run the script for the first time.
 
@@ -89,7 +79,7 @@ deploy_NetworkDev1.py
 maendeleolab_lib.py
 ```
 
-**7**  - I recommend running the script **NetworkDev1.py** to see what the expected results look like. 
+**6**  - I recommend running the script **NetworkDev1.py** to see what the expected results look like. 
 
 It will create a VPC named NetworkDev1 in us-east-1 and us-east-2 with their respective CIDR ranges.
 
@@ -101,11 +91,11 @@ You have the option to copy the script to another file name and edit it.
 ./NetworkDev1.py or python3 NetworkDev1.py
 ```
 
-**8**  - Verify the expected results are present in the VPC console. 
+**7**  - Verify the expected results are present in the VPC console. 
 
-**9**  - Run the script again to verify idempotency is working as expected. 
+**8**  - Run the script again to verify idempotency is working as expected. 
 
-**10**  - VPC resources do not cost you anything, but in case you decide to delete the VPCs. You can run the script **delete_resources.py**
+**9**  - VPC resources do not cost you anything, but in case you decide to delete the VPCs. You can run the script **delete_resources.py**
 	
 **Note:** The script deletes all VPC resources that do not have any dependencies. 
 	
