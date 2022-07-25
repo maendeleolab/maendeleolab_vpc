@@ -56,7 +56,7 @@ export ENV_FPATH="/home/ubuntu"
 **3**  - Clone this repo to the instance/server using the syntax below.
 
 ```
-git clone git@github.com:maendeleolab/maendeleolab_vpc.git
+git clone https://github.com/maendeleolab/maendeleolab_vpc.git
 ```
 
 **4**  - You can verify the integrity of the folder using the commands below.
