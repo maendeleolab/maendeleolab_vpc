@@ -23,7 +23,7 @@
 
 - The scripts are idempotent. 
 
-- The line above means, if the resource is tagged with a name that already exists, it will not create a VPC with an identical tag.
+- The line above means, if the resource is tagged with a name that already exists, it will not create another one.
 
 ## [Prerequisites](#Prerequisites)
 
