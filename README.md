@@ -21,9 +21,9 @@
 
 - It creates a unique VPC, including a primary CIDR and the option to add a secondary CIDR. 
 
-- The scripts included in the repo are idempotent. 
+- The scripts are idempotent. 
 
-- This means, if the resource is tagged with a name that already exists, it will not create a VPC with an identical tag.
+- The line above means, if the resource is tagged with a name that already exists, it will not create a VPC with an identical tag.
 
 ## [Prerequisites](#Prerequisites)
 
@@ -32,8 +32,6 @@
 - Must have awscli version 2 and Python 3.6.9 (or higher) installed.
 
 - I recommend dedicating an instance (or on-premises server) to programmatically run the scripts.  
-
-- AWS CLI --profile option is not used for simplicity. 
 
 - Assign a role with programmatic access to the instance/server default profile.
 
