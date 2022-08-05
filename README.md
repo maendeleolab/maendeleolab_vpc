@@ -71,6 +71,8 @@ cd maendeleolab_vpc
 
 Remember to use it to monitor your environment or troubleshoot an issue.
 
+Watch [tutorial](https://youtu.be/SCcGe9pr5Z0) on youtube for more details.
+
 ```
 README.md
 LICENSE
