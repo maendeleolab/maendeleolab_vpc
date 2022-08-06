@@ -49,6 +49,9 @@ export ENV_FPATH="/home/ubuntu"
 
 ## [Walk-through](#Walk-through)
 
+
+Watch [tutorial](https://youtu.be/SCcGe9pr5Z0) on youtube for step by step instructions.
+
 **1**  - Make sure to comply with the prerequisites mentioned above.
 
 **2**  - Update and install the latest packages of your Linux distribution system.
@@ -71,7 +74,6 @@ cd maendeleolab_vpc
 
 Remember to use it to monitor your environment or troubleshoot an issue.
 
-Watch [tutorial](https://youtu.be/SCcGe9pr5Z0) on youtube for more details.
 
 ```
 README.md
