@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 import os, json, sys, pprint, itertools
 from build_vpc import destroy_vpc, erase_vpcs
