@@ -14,8 +14,11 @@ from time import sleep
 FPATH = os.environ.get('ENV_FPATH')
 
 #logging
-logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p ',\
-                        filename=FPATH+'/maendeleolab_vpc/vpc.log', level=logging.INFO)
+try:
+    logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p ',\
+                            filename=FPATH+'/maendeleolab_vpc/vpc.log', level=logging.INFO)
+except Exception as err:
+    print(f'Logging error: {err}')
 
 #adding flexibility for regions
 def region_id(name='us-east-1'):
