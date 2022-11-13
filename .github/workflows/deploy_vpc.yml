@@ -11,8 +11,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    using: 'node16'
-    main: 'main.js'
 
     steps:
     - name: checkout repo content
@@ -33,6 +31,12 @@ jobs:
     needs: [test]
     runs-on: ubuntu-latest
     steps:
+    - name: checkout repo content
+      uses: actions/checkout@v2 # checkout the repository content to github runner.
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+         python-version: 3.8 #install the python needed
     - name: Deploy VPC to prod
       run: |
         python deploy_NetworkDev1.py
