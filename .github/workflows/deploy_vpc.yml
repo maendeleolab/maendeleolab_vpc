@@ -7,13 +7,13 @@ on:
   pull_request:
     branches: [main]
     
-runs:
-  using: 'node16'
-  main: 'main.js'
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    runs:
+      using: 'node16'
+      main: 'main.js'
 
     steps:
     - name: checkout repo content
